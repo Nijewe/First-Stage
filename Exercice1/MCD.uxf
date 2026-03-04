@@ -1,0 +1,49 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>50</x><y>60</y><w>180</w><h>150</h></coordinates><panel_attributes>Equipe
+--
+id_équipe: int
+--
+lib_équipe: String
+--
+Classement: Smallint</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>430</x><y>790</y><w>170</w><h>170</h></coordinates><panel_attributes>Ville
+--
+id_ville: int
+--
+nom_ville: String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>880</x><y>490</y><w>200</w><h>170</h></coordinates><panel_attributes>Chaine TV
+--
+id_chaine: int
+--
+nom_chaine: String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>530</y><w>180</w><h>160</h></coordinates><panel_attributes>Stade
+--
+id_stade: int
+--
+nom_stade: String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>850</x><y>70</y><w>180</w><h>160</h></coordinates><panel_attributes>Groupe
+--
+id_groupe: int
+--
+lib_groupe: String</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>220</x><y>130</y><w>650</w><h>50</h></coordinates><panel_attributes>lt=-
+m1= 0..n
+m2=1..1
+appartient à &gt;</panel_attributes><additional_attributes>10;20;630;20</additional_attributes></element><element><id>Relation</id><coordinates><x>170</x><y>600</y><w>370</w><h>210</h></coordinates><panel_attributes>lt=-
+m1= 0..n
+m2=1..1
+est situé dans &gt;</panel_attributes><additional_attributes>10;10;350;190</additional_attributes></element><element><id>UMLClass</id><coordinates><x>460</x><y>300</y><w>180</w><h>160</h></coordinates><panel_attributes>Match
+--
+id_match: int
+--
+jour_match: Date
+--
+heure_match: Décimal
+--
+score_match: String</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>170</x><y>360</y><w>310</w><h>270</h></coordinates><panel_attributes>lt=-
+m1=1..1
+m2=0..n
+accueille &gt;</panel_attributes><additional_attributes>10;250;290;10</additional_attributes></element><element><id>Relation</id><coordinates><x>630</x><y>370</y><w>360</w><h>140</h></coordinates><panel_attributes>lt=-
+m1=0..n
+m2=0..n
+est diffusé sur &gt;</panel_attributes><additional_attributes>340;120;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>220</x><y>140</y><w>260</w><h>250</h></coordinates><panel_attributes>lt=-
+m1=2
+m2=0..n
+joue &gt;</panel_attributes><additional_attributes>10;10;240;230</additional_attributes></element><element><id>Relation</id><coordinates><x>630</x><y>140</y><w>250</w><h>260</h></coordinates><panel_attributes>lt=-
+m1= 0..n
+m2=1..1
+appartient à &gt;</panel_attributes><additional_attributes>10;240;220;10</additional_attributes></element></diagram>

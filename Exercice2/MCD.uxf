@@ -1,0 +1,18 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>44</x><y>190</y><w>170</w><h>170</h></coordinates><panel_attributes>Client
+--
+id: int
+--
+nom: String
+--
+prenom: String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>614</x><y>180</y><w>150</w><h>190</h></coordinates><panel_attributes>Facture
+--
+numero: int
+--
+date: Date
+--
+montant: decimal
+--
+payee: boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>204</x><y>250</y><w>430</w><h>60</h></coordinates><panel_attributes>lt=-
+m1=1..1
+m2=0..n
+possède &gt;</panel_attributes><additional_attributes>10;30;410;20</additional_attributes></element></diagram>
